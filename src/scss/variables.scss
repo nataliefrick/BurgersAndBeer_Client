@@ -536,4 +536,109 @@ div.col h3 {
     text-align: center;
 }
 
-// p
+// booking form ---------------------------------------------------------
+section#booking-form  {
+    background: url('../img/background.jpg') no-repeat center fixed;     
+    background-size: cover;
+    background-color: $grey;
+    width: 250px;
+    padding: 2%;
+    margin: 3% auto;
+    min-height: 150px;
+}
+
+form {
+    background-color: $grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 225px; 
+    margin: auto;
+    padding: 3%;
+}
+
+form h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section#booking-form form input {
+    background-color: $yellow-transp;
+    color: $white;
+    text-align: left;
+    padding: 2% 0 2% 5px;
+    border: 0;
+    margin: 1% auto;   
+    width: 195px; 
+}
+
+section#booking-form form input.submit {
+    background-color: $yellow;
+    color: $black;
+    text-align: center;
+    border: 1px solid transparent;
+    width: 200px;
+}
+
+form input.submit:hover {
+    background-color: $grey!important;
+    border: 1px solid $yellow!important;
+    color: $yellow!important;
+}
+
+fieldset {
+    flex-direction: row;
+    gap: 0;
+    width: 200px;
+    border: 0;
+    margin: 1% auto 0 auto;
+    padding: 0!important;
+    
+}
+
+fieldset label {
+    font-size: 0.8em;
+    color: $yellow!important;
+    background-color: $yellow-transp;
+    padding: 5px 5px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+fieldset select {
+    font-size: 0.8em;
+    color: $white;
+    background-color: $yellow-transp;
+    border: 0;
+    padding: 4px;
+    margin: 0;
+    // width: 43%;
+    flex-grow: 1;
+}
+
+select#nr-pers {
+    width: 96px!important;
+}
+
+input#date {
+    width: 139px!important;
+}
+
+label.time {
+    padding-right: 59px!important; 
+}
+
+input#time {
+    padding: 2px 0 3px 15px!important;
+    width: 149px!important;
+    margin: 0!important;
+}
+
+p.small {
+    color: $yellow;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+
+// select option
