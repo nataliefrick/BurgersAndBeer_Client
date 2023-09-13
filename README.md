@@ -1,4 +1,4 @@
-﻿# Burgers&Beer REST client admin interface
+﻿# Burgers&Beer client admin interface
  
 This project is the course evaulation project for DT173G Web Developement III: JavaScript, Node.js and Gulp. 
 
